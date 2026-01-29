@@ -1,0 +1,20 @@
+# E.D.I.T.H PyTorch Requirements
+
+# Core deep learning
+torch>=2.0.0
+numpy>=1.24.0
+
+# Tokenization
+transformers>=4.30.0
+
+# Training utilities
+tqdm>=4.65.0
+
+# Optional: For CPU-only installation, use:
+# torch>=2.0.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+
+# Optional: For CUDA 11.8, use:
+# torch>=2.0.0+cu118 -f https://download.pytorch.org/whl/torch_stable.html
+
+# Optional: For CUDA 12.1, use:
+# torch>=2.0.0+cu121 -f https://download.pytorch.org/whl/torch_stable.html
