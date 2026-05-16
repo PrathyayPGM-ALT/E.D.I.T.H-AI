@@ -1,0 +1,9 @@
+ollama
+faster-whisper
+flask
+requests
+edge-tts
+pygame
+Pillow
+numpy
+opencv-python
