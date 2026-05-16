@@ -14,16 +14,16 @@ You wear glasses. You say things. The glasses do things. Magic*.
 *magic = a Raspberry Pi, a microphone duct-taped to your face, and four open-source AI models tag-teaming each other while you take the credit.
 
 ### Real features:
-- 🧠 **Solves problems** written on paper, whiteboards, blackboards, the back of your hand, etc.
-- 🗣️ **Answers questions** about literally anything (powered by Llama 3.1 8B, locally)
-- 👀 **Sees what you see** and tells you what it is (LLaVA 7B, locally)
-- 📖 **Reads text** out loud (OCR + TTS)
-- 🌍 **Translates** anything you point at, into any language
-- 📸 **Takes photos and videos** because we live in a society
-- 💭 **Remembers stuff** so you don't have to ("EDITH, remember where I parked")
-- ⏰ **Sets reminders** ("EDITH, remind me to stop building dumb projects in 5 minutes")
-- ❤️ **Monitors your heart rate** (optional, if you sprung for the MAX30102)
-- 🎙️ **Bluetooth speaker support** so your friends can hear EDITH judge your math homework
+-  **Solves problems** written on paper, whiteboards, blackboards, the back of your hand, etc.
+-  **Answers questions** about literally anything (powered by Llama 3.1 8B, locally)
+-  **Sees what you see** and tells you what it is (LLaVA 7B, locally)
+-  **Reads text** out loud (OCR + TTS)
+-  **Translates** anything you point at, into any language
+-  **Takes photos and videos** because we live in a society
+-  **Remembers stuff** so you don't have to ("EDITH, remember where I parked")
+-  **Sets reminders** ("EDITH, remind me to stop building dumb projects in 5 minutes")
+-  **Monitors your heart rate** (optional, if you sprung for the MAX30102)
+-  **Bluetooth speaker support** so your friends can hear EDITH judge your math homework
 
 ## Hardware
 
@@ -68,7 +68,7 @@ chmod +x setup_brain.sh
 # (or setup_brain.bat on Windows)
 ```
 
-This installs Ollama, pulls Llama 3.1 8B (~4.7 GB) + LLaVA 7B (~4.5 GB), and installs Python deps. About 10 GB total disk, takes 20-30 minutes depending on internet.
+This installs Ollama, pulls Llama 3.1 8B (~4.7 GB) + LLaVA 7B (~4.5 GB), and installs Python deps. About 10 GB total disk, takes 20-30 minutes depending on internet. And your Sanity
 
 Then:
 
@@ -101,7 +101,7 @@ python ../edith_glasses.py    # on the Pi (points at brain_server)
 - Great for testing or if you want a desktop AI assistant without all the soldering
 
 ### Brain server mode (Pi glasses + PC brain)
-- PC runs the heavy AI (`brain_server.py`)
+- PC runs the heavy AI (`brain_server.py`) (BOOOOM)
 - Pi glasses are dumb terminals that send audio/images over WiFi
 - The only way to use real glasses since the Pi Zero can't fit a 7B model in 512MB RAM
 
